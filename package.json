@@ -1,0 +1,44 @@
+{
+  "name": "@itavy/simple-timer",
+  "version": "0.0.1",
+  "description": "Simple timer",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
+    "test:check-style": "./node_modules/.bin/eslint index.js lib/*",
+    "pretest": "npm run test:check-style",
+    "generate-jsdoc": "./node_modules/.bin/jsdoc -c jsdoc.conf.json"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/itavy/simple-timer.git"
+  },
+  "keywords": [
+    "timer",
+    "evented-timer"
+  ],
+  "author": "Octavian Ionescu <itavyg@gmail.com> (https://github.com/itavy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itavy/simple-timer/issues"
+  },
+  "homepage": "https://github.com/itavy/simple-timer#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "pre-commit": "^1.2.2",
+    "sinon": "^1.17.7",
+    "sinon-as-promised": "^4.0.2"
+  }
+}
