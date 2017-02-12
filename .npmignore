@@ -1,5 +1,7 @@
+coverage/
 test/
 .eslintignore
 .eslintrc
 .istanbul.yml
 .travis.yml
+npm-debug.log
