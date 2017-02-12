@@ -1,6 +1,6 @@
 {
   "name": "@itavy/simple-timer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple timer",
   "main": "index.js",
   "scripts": {
