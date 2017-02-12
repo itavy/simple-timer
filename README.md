@@ -90,3 +90,7 @@ the arguments are:
 ###### Note ######
 when the last executor is removed it will stop the timer and it can be
 reactivated by adding an executor;
+
+
+## License ##
+MIT
